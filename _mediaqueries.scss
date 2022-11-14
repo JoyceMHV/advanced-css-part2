@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) { 
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "one two"
+        "three four"
+        "five six"
+        "seven .";
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "one two three"
+        "four five six"
+        "seven . .";
+    }
+}
